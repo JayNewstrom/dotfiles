@@ -8,7 +8,7 @@ shopt -s histappend;
 shopt -s cdspell;
 
 # Load the shell dotfiles, and then some:
-for file in ~/.{exports,aliases,secret,android_bash_profile}; do
+for file in ~/.{exports,aliases,secret,android_bash_profile,path}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;

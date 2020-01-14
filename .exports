@@ -6,3 +6,7 @@ export HISTSIZE='32768';
 export HISTFILESIZE="${HISTSIZE}";
 # Omit duplicates and commands that begin with a space from history.
 export HISTCONTROL='ignoreboth';
+
+export SSH_AUTH_SOCK="$HOME/.gnupg/S.gpg-agent.ssh"
+
+export RAILS_ENV=development

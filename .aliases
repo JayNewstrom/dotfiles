@@ -9,3 +9,4 @@ alias .....="cd ../../../.."
 
 alias g="git"
 alias fixgpg="gpgconf --kill gpg-agent"
+alias l="ls -la"
