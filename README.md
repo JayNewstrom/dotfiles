@@ -2,7 +2,8 @@
 
 ## Initialize
 
-`./dotfileInitialization.sh`
+ - `./machineInitialization.sh`
+ - `./dotfileInitialization.sh`
 
 ## License
 
