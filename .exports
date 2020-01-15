@@ -10,3 +10,5 @@ export HISTCONTROL='ignoreboth';
 export SSH_AUTH_SOCK="$HOME/.gnupg/S.gpg-agent.ssh"
 
 export RAILS_ENV=development
+
+export JAVA_HOME=$(/usr/libexec/java_home)
