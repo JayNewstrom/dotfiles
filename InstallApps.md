@@ -1,0 +1,20 @@
+# List of apps to install
+- Chrome
+- docker
+- gpg keychain
+- java jdk
+- intellij toolbox
+- Charles Proxy
+- Spotify
+- Signal
+- homebrew
+- slack
+- tunnelblick
+- flux
+- logitech options
+- rvm
+- aws command line
+- glcoud command line
+- nvm
+- atom
+- vscode
