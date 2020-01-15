@@ -25,8 +25,6 @@ cask 'signal'
 cask 'slack'
 cask 'spotify'
 cask 'tunnelblick'
-cask 'virtualbox' # Might need to allow access in Security settings
-cask 'virtualbox-extension-pack'
 cask 'visual-studio-code'
 
 # Mac App Store

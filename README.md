@@ -2,7 +2,18 @@
 
 ## Initialize
 
+#### First Time Download
+
+ - `curl -L https://github.com/JayNewstrom/dotfiles/archive/master.zip --output dotfiles.zip`
+ - `unzip dotfiles.zip`
+ - `cd dotfiles-master`
+ - Now you can run the steps under Run
+ - It's probably best to properly clone the repo, and relaunch the `./dotfileInitialization.sh` script once everything is done for the first time. 
+
+#### Run
+
  - `./machineInitialization.sh`
+ - `./.macos`
  - `./dotfileInitialization.sh`
 
 ## License
