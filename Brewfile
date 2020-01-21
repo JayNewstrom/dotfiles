@@ -10,7 +10,6 @@ brew 'awscli'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
 brew 'gnupg2'
-brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'nvm'
 brew 'pinentry-mac'
@@ -40,3 +39,4 @@ cask 'logitech-options'
 # Mac App Store
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
+mas 'Xcode', id: 497799835
