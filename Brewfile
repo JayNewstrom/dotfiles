@@ -1,5 +1,7 @@
 # Taps
 tap 'homebrew/cask'
+tap 'homebrew/cask-drivers'
+tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
@@ -11,8 +13,10 @@ brew 'gnupg2'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'nvm'
+brew 'pinentry-mac'
 
 # Apps
+cask 'adoptopenjdk8'
 cask 'atom'
 cask 'charles'
 cask 'docker'
@@ -26,6 +30,12 @@ cask 'slack'
 cask 'spotify'
 cask 'tunnelblick'
 cask 'visual-studio-code'
+
+# Fonts
+cask 'font-jetbrains-mono'
+
+# Drivers
+cask 'logitech-options'
 
 # Mac App Store
 mas 'Keynote', id: 409183694

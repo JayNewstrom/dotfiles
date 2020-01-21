@@ -8,5 +8,5 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 alias g="git"
-alias fixgpg="gpgconf --kill gpg-agent"
+alias fixgpg="gpgconf --kill gpg-agent;gpg-connect-agent reload agent /bye"
 alias l="ls -la"
