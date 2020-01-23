@@ -16,6 +16,7 @@ brew 'pinentry-mac'
 
 # Apps
 cask 'adoptopenjdk8'
+cask 'android-platform-tools'
 cask 'android-sdk'
 cask 'atom'
 cask 'charles'
@@ -36,6 +37,7 @@ cask 'font-jetbrains-mono'
 
 # Drivers
 cask 'logitech-options'
+cask 'yubico-authenticator'
 
 # Mac App Store
 mas 'Keynote', id: 409183694

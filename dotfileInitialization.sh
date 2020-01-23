@@ -7,7 +7,7 @@ ln -sfn "$(pwd)/gitignore" "$HOME/.gitignore"
 mkdir -p "$HOME/.gradle"
 ln -sfn "$(pwd)/.gradle/gradle.properties" "$HOME/.gradle/gradle.properties"
 
-for file in .{bash_profile,gitconfig,exports,aliases,android_bash_profile,path,inputrc}; do
+for file in .{bash_profile,gitconfig,exports,aliases,path,inputrc}; do
   ln -sfn "$(pwd)/$file" "$HOME/$file"
 done
 unset file
