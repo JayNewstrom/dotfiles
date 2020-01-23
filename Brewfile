@@ -16,6 +16,7 @@ brew 'pinentry-mac'
 
 # Apps
 cask 'adoptopenjdk8'
+cask 'android-sdk'
 cask 'atom'
 cask 'charles'
 cask 'docker'
