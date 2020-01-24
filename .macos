@@ -737,5 +737,8 @@ defaults write org.herf.Flux locationTextField 41.3,-96
 defaults write org.herf.Flux location 41.300000,-96.000000
 defaults write org.herf.Flux darkTheme 0
 
+# Battery
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
+
 # Done
 echo "Done. Restart Please!"
