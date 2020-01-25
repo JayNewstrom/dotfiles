@@ -10,6 +10,7 @@ brew 'awscli'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
 brew 'gnupg2'
+brew 'golang'
 brew 'mas' # Mac App Store manager
 brew 'nvm'
 brew 'pinentry-mac'
