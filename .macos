@@ -740,5 +740,8 @@ defaults write org.herf.Flux darkTheme 0
 # Battery
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
+# Menu
+defaults write com.apple.menuextra.clock DateFormat -string "EEE d MMM hh:mm"
+
 # Done
 echo "Done. Restart Please!"
