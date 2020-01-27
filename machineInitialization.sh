@@ -19,3 +19,9 @@ brew update
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
 brew bundle
+
+./dotfileInitialization.sh
+source "$HOME/.bash_profile"
+
+mkdir "$ANDROID_HOME/licenses" || true
+ln -sfn "$(pwd)/android-sdk-license" "$ANDROID_HOME/licenses/android-sdk-license"
