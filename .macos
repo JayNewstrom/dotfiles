@@ -316,7 +316,7 @@ defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
 
 # Use list view in all Finder windows by default
 # Four-letter codes for the other view modes: `icnv`, `clmv`, `glyv`
-defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 
 # Disable the warning before emptying the Trash
 defaults write com.apple.finder WarnOnEmptyTrash -bool false
@@ -741,7 +741,7 @@ defaults write org.herf.Flux darkTheme 0
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
 # Menu
-defaults write com.apple.menuextra.clock DateFormat -string "EEE d MMM hh:mm"
+defaults write com.apple.menuextra.clock DateFormat -string "EEE MMM d  h:mm:ss a"
 
 # Done
 echo "Done. Restart Please!"
