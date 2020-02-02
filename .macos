@@ -743,5 +743,8 @@ defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 # Menu
 defaults write com.apple.menuextra.clock DateFormat -string "EEE MMM d  h:mm:ss a"
 
+# Default login shell to bash.
+chsh -s /bin/bash
+
 # Done
 echo "Done. Restart Please!"
