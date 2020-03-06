@@ -1,7 +1,7 @@
 [user]
   name = Jay Newstrom
   email = jaynewstrom@gmail.com
-  signingkey = FCCD01BA2AD19472
+  signingkey = 53693DCB3949977D
 [push]
   default = current
 [core]
