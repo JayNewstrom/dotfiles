@@ -12,10 +12,8 @@ apply plugin: Mirakle
 
 rootProject {
     mirakle {
-        host 'mainframer'
+        host 'remoteBuild'
 
         excludeCommon += ['captures', '*.iml', 'build/intermediates/*', 'build/kotlin/*', 'build/outputs/logs/*', 'build/tmp/*']
-        downloadInParallel true
-        downloadInterval 1000
     }
 }
