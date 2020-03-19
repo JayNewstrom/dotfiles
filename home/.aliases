@@ -11,3 +11,5 @@ alias g="git"
 alias fixgpg="gpgconf --kill gpg-agent;gpg-connect-agent reload agent /bye"
 alias l="ls -la"
 alias flushDns="sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper;sudo dscacheutil -flushcache"
+
+alias docker-compose-rebuild="docker-compose pull;docker-compose stop;docker-compose rm -f;docker-compose up -d"
