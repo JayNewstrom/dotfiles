@@ -44,3 +44,4 @@ cask 'yubico-authenticator'
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'Xcode', id: 497799835
+mas 'tailscale', id: 1475387142
