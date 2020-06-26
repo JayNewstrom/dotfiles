@@ -9,6 +9,7 @@
  - `cd dotfiles-master`
  - Now you can run the steps under Run
  - It's probably best to properly clone the repo, and relaunch the `./dotfileInitialization.sh` script once everything is done for the first time. 
+ - Open https://github.com/jaynewstrom.gpg and copy into gpg keychain, and trust ultimately - Ideally this is scripted.
 
 #### Run
 
