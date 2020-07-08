@@ -120,3 +120,6 @@
   recentBranches = "!git for-each-ref --sort='authordate:iso8601' --format=' %(color:green)%(authordate:iso8601)%09%(color:white)%(refname:short)' refs/heads"
 
   deleteAllBranches = "!git branch | grep -v "develop" | grep -v "master" | xargs git branch -D"
+
+[pull]
+	ff = only
