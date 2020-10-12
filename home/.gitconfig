@@ -1,12 +1,13 @@
 [user]
   name = Jay Newstrom
   email = jaynewstrom@gmail.com
-  signingkey = 53693DCB3949977D
+  signingkey = 3949977D
 [push]
   default = current
 [core]
   excludesfile = ~/.gitignore
   untrackedCache = true
+	autocrlf = input
 [commit]
   gpgsign = true
 
@@ -123,3 +124,9 @@
 
 [pull]
 	ff = only
+[branch]
+	autosetupmerge = always
+[credential]
+	helper = store
+[github]
+	user = jaynewstrom
