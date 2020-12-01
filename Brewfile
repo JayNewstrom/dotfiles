@@ -6,14 +6,20 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 # Binaries
+brew 'ansible'
 brew 'awscli'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
 brew 'gnupg2'
 brew 'golang'
+brew 'iperf3'
+brew 'jq'
 brew 'mas' # Mac App Store manager
+brew 'mosquitto'
 brew 'nvm'
+brew 'openssl'
 brew 'pinentry-mac'
+brew 'yarn'
 
 # Apps
 cask 'adoptopenjdk8'
