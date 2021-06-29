@@ -8,3 +8,5 @@ fi
 if [[ $(command -v composer) ]]; then
     export PATH=~/.composer/vendor/bin:$PATH
 fi
+
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

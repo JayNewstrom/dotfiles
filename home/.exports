@@ -11,10 +11,6 @@ export SSH_AUTH_SOCK="$HOME/.gnupg/S.gpg-agent.ssh"
 
 export RAILS_ENV=development
 
-if [[ $(command -v brew) ]]; then
-    export JAVA_HOME=$(/usr/libexec/java_home)
-fi
-
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 export NVM_DIR="$HOME/.nvm"
@@ -25,3 +21,9 @@ if [[ $(command -v brew) ]]; then
     export GOROOT="$(brew --prefix golang)/libexec"
     export GOPATH="$HOME/go"
 fi
+
+if [[ $(command -v sdk) ]]; then
+    export JAVA_HOME="$(sdk home java current)"
+fi
+
+export HOSTNAME=$HOSTNAME

@@ -11,3 +11,7 @@ fi
 # strap:straprc:begin
 [ -r "$HOME/.strap/etc/straprc" ] && . "$HOME/.strap/etc/straprc"
 # strap:straprc:end
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
