@@ -122,6 +122,8 @@
 
   deleteAllBranches = "!git branch | grep -v "develop" | grep -v "master" | xargs git branch -D"
 
+  copy-pr-from-fork = "!f() { git fetch -fu ${2:-origin} refs/pull/$1/head:jn-pub-pr-$1 && git checkout jn-pub-pr-$1; }; f"
+
 [pull]
 	ff = only
 [branch]
