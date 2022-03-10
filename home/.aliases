@@ -8,7 +8,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 alias g="git"
-alias fixgpg="gpgconf --kill gpg-agent;gpg-connect-agent reload agent /bye;gpg-connect-agent "scd serialno" "learn --force" /bye"
+alias fixgpg="gpgconf --kill gpg-agent;gpg-connect-agent reload agent /bye"
 alias l="ls -la"
 alias flushDns="sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper;sudo dscacheutil -flushcache"
 
