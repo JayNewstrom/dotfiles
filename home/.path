@@ -9,4 +9,8 @@ if [[ $(command -v composer) ]]; then
     export PATH=~/.composer/vendor/bin:$PATH
 fi
 
+if [[ -d "$HOME/Library/Android/sdk" ]]; then
+    export PATH="$PATH:$HOME/Library/Android/sdk/platform-tools:$HOME/Library/Android/sdk/tools/bin"
+fi
+
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
