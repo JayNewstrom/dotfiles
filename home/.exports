@@ -16,14 +16,16 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 export NVM_DIR="$HOME/.nvm"
 
 if [[ $(command -v brew) ]]; then
-    export ANDROID_HOME="$(brew --prefix)/share/android-sdk"
-
     export GOROOT="$(brew --prefix golang)/libexec"
     export GOPATH="$HOME/go"
 fi
 
 if [[ $(command -v sdk) ]]; then
     export JAVA_HOME="$(sdk home java current)"
+fi
+
+if [[ -d "$HOME/Library/Android/sdk" ]]; then
+    export ANDROID_HOME="$HOME/Library/Android/sdk"
 fi
 
 export HOSTNAME=$HOSTNAME
